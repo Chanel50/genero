@@ -1,0 +1,45 @@
+.des{
+    display: flex;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.container22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('/public/images/im28.png');  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    opacity: 0.75;
+      height: 400px;
+  
+  
+  
+  }
+
+  /* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .container22{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('/public/images/im28.png');  background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+        opacity: 0.75;
+          height: 850px;
+      
+      
+      
+      }
+  
+}
